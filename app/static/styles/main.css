@@ -138,3 +138,13 @@ body {
     color: white;
     font-size: 1.25em;
 }
+
+.contact {
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+}
+
+.contact-text {
+  text-align: center;
+
