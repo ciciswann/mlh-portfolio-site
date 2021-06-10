@@ -201,4 +201,13 @@ li:hover::after {
     text-align: center;
     display: inline-block;
     margin-bottom: 0px;
+  
+.contact {
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+}
+
+.contact-text {
+  text-align: center;
 }
