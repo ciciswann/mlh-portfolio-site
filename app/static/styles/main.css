@@ -52,7 +52,7 @@ body {
 .profile {
     background-color: #1d539f !important;
     text-align: center;
-    height: 320px;
+    height: 420px;
     margin-bottom: 50px;
 }
 
@@ -94,4 +94,47 @@ body {
     color: white;
     font-size: 50px;
     font-weight: 700;
+}
+
+.container {
+    max-width: 75%;
+}
+
+.center {
+    margin: auto;
+    padding: 10px;
+  } 
+
+.social-container {
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    padding: .5em 0;
+    margin: 0 auto;
+    box-shadow: 0 1px 1px 0 rgb(164 164 164 / 11%);
+    margin-top: -90px;
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.social-icons {
+    max-width: 40%;
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(4,1fr);
+    cursor: pointer;
+    font-size: 2.7em;
+    color: grey;
+}
+
+.fa {
+    color: grey;
+}
+
+.blurb {
+    color: white;
+    font-size: 1.25em;
 }
