@@ -28,13 +28,16 @@ body {
 
 .nav-content .nav-logo {
     height: 60px;
-    margin: auto;
+}
+
+
+.nav-right {
+    float: right;
 }
 
 .nav-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .nav-logo img {
@@ -54,6 +57,7 @@ body {
     text-align: center;
     height: 420px;
     margin-bottom: 50px;
+    margin-top: -10px;
 }
 
 .profile h1 {
@@ -100,6 +104,10 @@ body {
     max-width: 75%;
 }
 
+.nav-container {
+    max-width: 85%;
+}
+
 .center {
     margin: auto;
     padding: 10px;
@@ -134,7 +142,63 @@ body {
     color: grey;
 }
 
+.fa:hover {
+    color: black;
+    cursor: pointer;
+}
+
 .blurb {
     color: white;
     font-size: 1.25em;
+}
+
+ul {
+  position: sticky;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  position: relative;
+  padding: 10px 20px;
+  overflow: hidden;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px;
+  text-decoration: none;
+}
+
+li::after {
+  background-color: white;
+  content: "";
+  width: 0;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  transition: width 0.35s ease 0s;
+  position: absolute;
+}
+
+li:hover::after {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.btn-resume {
+    font-weight: 500;
+    color: #ffe484;
+    border: 1px solid #ffe484;
+    border-radius: 5px;
+    padding: .375rem .75rem;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 0px;
 }
