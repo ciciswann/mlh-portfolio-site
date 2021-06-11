@@ -157,7 +157,6 @@ body {
 }
 
 ul {
-  position: sticky;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -209,8 +208,6 @@ li:hover::after {
   
 .contact {
   text-align: center;
-  text-decoration-line: underline;
-  text-decoration-thickness: 2px;
   margin-top: 50px;
 }
 
@@ -220,8 +217,6 @@ li:hover::after {
 
 .project {
     text-align: center;
-    text-decoration-line: underline;
-    text-decoration-thickness: 2px;
     margin-top: 100px;
 }
 
@@ -234,7 +229,7 @@ li:hover::after {
 	grid-gap: 2.75rem;
 	padding: 1rem;
 	max-width: 100%;
-	margin: 100px auto 100px auto;
+	margin: 50px auto 100px auto;
 	font-family: var(--font-sans);
 }
 
@@ -396,4 +391,99 @@ li:hover::after {
 		 transition-duration: 0.5s;
 	}
 }
+
+.divider
+{
+    margin-bottom: 50px;
+	position: relative;
+	height: 1px;
+}
+
+.div-transparent:before
+{
+    color: grey;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 2.5px;
+	background-image: linear-gradient(to right, transparent, rgb(170, 171, 173), transparent);
+}
  
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+		-webkit-tap-highlight-color: transparent;
+}
+
+#topBtn {
+    display: none;
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	background-color: #1C539F;
+	border: none;
+	border-radius: 50%;
+	transition: 200ms;
+}
+
+#topBtn svg {
+	fill: white;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+#topBtn:before {
+	content: 'Top';
+	position: absolute;
+	transform: translateX(-50%) translateY(-45px);
+	font-size: 15px;
+	transition: 200ms;
+	color: transparent;
+	font-weight: bold;
+    margin-top: -12px;
+}
+
+#topBtn:hover {
+	box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+	width: 60px;
+	height: 60px;
+}
+
+#topBtn:hover::before {
+	color: black;
+}
+
+#topBtn:hover svg {
+		animation: bounce 2s infinite linear;
+}
+
+@keyframes bounce {
+	0% {transform: translateX(-50%) translateY(-50%)}
+	25% {transform: translateX(-50%) translateY(-65%)}
+	50% {transform: translateX(-50%) translateY(-50%)}
+	75% {transform: translateX(-50%) translateY(-35%)}
+	100% {transform: translateX(-50%) translateY(-50%)}
+}
+
+#topBtn:focus {
+	outline: none;
+}
