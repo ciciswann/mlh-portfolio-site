@@ -34,7 +34,6 @@ body {
     height: 60px;
 }
 
-
 .nav-right {
     float: right;
 }
@@ -613,7 +612,7 @@ li:hover::after {
 	list-style: none;
 }
 
-.blog-card .details 
+.blog-card .details {
 	position: absolute;
 	top: 0;
 	bottom: 0;
