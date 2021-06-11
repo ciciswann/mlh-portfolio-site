@@ -23,20 +23,19 @@
 
 <body>
     <button onclick="topFunction()" id="topBtn" class="noselect"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 16.67l2.829 2.83 9.175-9.339 9.167 9.339 2.829-2.83-11.996-12.17z"/></svg></button>
-    <header id="header" class="nav-bar">
+    <header class="nav-bar" style="position: sticky; top:0; z-index: 2">
         <ul class="nav-content nav-container center">
                 <a href="/">
                     <div class="nav-logo">
                         <img src="./static/img/logo.svg" />
                     </div>
                 </a>
-            <li><a href="#">Resume</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="#blog">Blog</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="/">Home</a></li>
         </ul>
     </header>
-
     <div class="profile">
         <div id="profile-picture" class="profile-picture">
             <img src="./static/img/logo.jpg">
@@ -66,8 +65,8 @@
             </div>
         </div>
     </div>
-
-    <div id="projects" class="project-container center">
+    <span class="anchor" id="projects"></span>
+    <div class="project-container center">
         <div class="project">
             <h2>PROJECTS</h2>
             <div class="divider div-transparent"></div>
@@ -103,11 +102,37 @@
             </div>
         </main>
     </div>
-
+    <span class="anchor" id="blog"></span>
     <div class="container center">
-        <div id="blog" class="blog-container">
+        <div class="blog-container">
             <h2>BLOG</h2>
             <div class="divider div-transparent"></div>
+        </div>
+        <div class="blog-card">
+            <div class="meta">
+                <div class="photo" style="background-image: url(https://i.pinimg.com/736x/71/95/2e/71952e752860e21a660c7db35d17e89e.jpg)"></div>
+            </div>
+            <div class="description">
+                <h1>Learning to Code</h1>
+                <h2>Posted on June 9, 2021</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+                <p class="read-more">
+                    <a href="#">Read More</a>
+                </p>
+            </div>
+        </div>
+        <div class="blog-card">
+            <div class="meta">
+                <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
+            </div>
+            <div class="description">
+                <h1>Blog Title #2</h1>
+                <h2>Posted on June 8, 2021</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+                <p class="read-more">
+                    <a href="#">Read More</a>
+                </p>
+            </div>
         </div>
     </div>
     <div class="container center">
