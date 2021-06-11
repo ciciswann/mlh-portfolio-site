@@ -8,7 +8,8 @@
     <meta property="og:title" content="Personal Portfolio">
     <meta property="og:description" content="My Personal Portfolio">
     <meta property="og:url" content="{{ url }}">
-    
+
+    <script src="{{url_for('static', filename='js/main.js')}}"></script>
     <link rel="stylesheet" href="{{ url_for('static', filename='font-awesome-4.7.0/css/font-awesome.min.css')}}">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
@@ -21,7 +22,8 @@
 </head>
 
 <body>
-    <header class="nav-bar">
+    <button onclick="topFunction()" id="topBtn" class="noselect"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 16.67l2.829 2.83 9.175-9.339 9.167 9.339 2.829-2.83-11.996-12.17z"/></svg></button>
+    <header id="header" class="nav-bar">
         <ul class="nav-content nav-container center">
                 <a href="/">
                     <div class="nav-logo">
@@ -30,7 +32,7 @@
                 </a>
             <li><a href="#">Resume</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="#blog">Blog</a></li>
             <li><a href="#projects">Projects</a></li>
         </ul>
     </header>
@@ -40,7 +42,11 @@
             <img src="./static/img/logo.jpg">
         </div>
         <h1>{{ title }}</h1>
-        <p class="blurb">Lorem ipsum dolor.</p>
+        <p class="blurb">  
+            <a href="#" class="typewrite" data-period="2000" data-type='[ "Production Engineering <br> Fellow @ MLH.", "Aspiring SRE/DevOps Engineer.", "CS Major @ Blah University.", "I Love to Code." ]'>
+                <span class="wrap"></span>
+            </a>
+        </p>
     </div>
     <div class="container center">
         <div class="social-container center">
@@ -60,44 +66,54 @@
             </div>
         </div>
     </div>
+
     <div id="projects" class="project-container center">
         <div class="project">
             <h2>PROJECTS</h2>
+            <div class="divider div-transparent"></div>
         </div>
         <main class="project-content">
             <div class="card">
                 <div class="content">
-                <h2 class="project-title">Project #1</h2>
-                <p class="copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="btn"><i class="fa fa-github"></i> Repo</button>
+                    <h2 class="project-title">Project #1</h2>
+                    <p class="copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button class="btn"><i class="fa fa-github"></i> Repo</button>
                 </div>
             </div>
             <div class="card">
                 <div class="content">
-                <h2 class="project-title">Project #2</h2>
-                <p class="copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="btn"><i class="fa fa-github"></i> Repo</button>
+                    <h2 class="project-title">Project #2</h2>
+                    <p class="copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button class="btn"><i class="fa fa-github"></i> Repo</button>
                 </div>
             </div>
             <div class="card">
                 <div class="content">
-                <h2 class="project-title">Project #3</h2>
-                <p class="copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="btn"><i class="fa fa-github"></i> Repo</button>
+                    <h2 class="project-title">Project #3</h2>
+                    <p class="copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button class="btn"><i class="fa fa-github"></i> Repo</button>
                 </div>
             </div>
             <div class="card">
                 <div class="content">
-                <h2 class="project-title">Project #4</h2>
-                <p class="copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="btn"><i class="fa fa-github"></i> Repo</button>
+                    <h2 class="project-title">Project #4</h2>
+                    <p class="copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button class="btn"><i class="fa fa-github"></i> Repo</button>
                 </div>
             </div>
         </main>
     </div>
+
+    <div class="container center">
+        <div id="blog" class="blog-container">
+            <h2>BLOG</h2>
+            <div class="divider div-transparent"></div>
+        </div>
+    </div>
     <div class="container center">
         <div id="contact" class="contact">
             <h2>GET IN TOUCH</h2>
+            <div class="divider div-transparent"></div>
         </div>
         <div class="contact-text">
             <p>Actively looking for opportunities in <i>xyz</i>. Feel free to reach out to me!</p>
