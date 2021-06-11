@@ -124,7 +124,7 @@ body {
     padding: .5em 0;
     margin: 0 auto;
     box-shadow: 0 1px 1px 0 rgb(164 164 164 / 11%);
-    margin-top: -90px;
+    margin-top: -110px;
     margin-bottom: 0px;
     position: relative;
     z-index: 1;
@@ -152,8 +152,7 @@ body {
 }
 
 .blurb {
-    color: white;
-    font-size: 1.25em;
+    margin: 50px auto;
 }
 
 ul {
@@ -486,4 +485,17 @@ li:hover::after {
 
 #topBtn:focus {
 	outline: none;
+}
+
+.blog-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.typewrite {
+    font-family: Rubik, sans-serif;
+    color: white;
+    font-size: 1.75em;
+    text-decoration: none;
+    font-weight: 700;
 }
