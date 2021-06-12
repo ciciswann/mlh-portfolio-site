@@ -1,4 +1,4 @@
-# Flask-Blog
+# Our Portfolio Project - 3.3.6 team 
 
 Minimal Flask template to get started on your blog application for MLH Fellowship Production Engineering track.
  
