@@ -1,6 +1,6 @@
 # Our Portfolio Project - 3.3.6 team 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Minimal Flask template to get started on your blog application for MLH Fellowship Production Engineering track.
@@ -50,6 +50,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/cccswann"><img src="https://avatars.githubusercontent.com/u/17733481?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ciara (CiCi) Swann</b></sub></a><br /><a href="#design-cccswann" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/nimra200"><img src="https://avatars.githubusercontent.com/u/56455442?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nimra </b></sub></a><br /><a href="https://github.com/cccswann/mlh-portfolio-site/commits?author=nimra200" title="Code">💻</a></td>
   </tr>
 </table>
 
