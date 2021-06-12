@@ -51,6 +51,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/cccswann"><img src="https://avatars.githubusercontent.com/u/17733481?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ciara (CiCi) Swann</b></sub></a><br /><a href="#design-cccswann" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/nimra200"><img src="https://avatars.githubusercontent.com/u/56455442?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nimra </b></sub></a><br /><a href="https://github.com/cccswann/mlh-portfolio-site/commits?author=nimra200" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/varsharathore16"><img src="https://avatars.githubusercontent.com/u/63990614?v=4?s=100" width="100px;" alt=""/><br /><sub><b>varsharathore16</b></sub></a><br /><a href="#content-varsharathore16" title="Content">🖋</a></td>
   </tr>
 </table>
 
