@@ -3,7 +3,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Minimal Flask template to get started on your blog application for MLH Fellowship Production Engineering track.
+The initial design of our blog application for MLH Fellowship Production Engineering track.
  
 
 ## Installation
