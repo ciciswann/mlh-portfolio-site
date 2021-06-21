@@ -1,0 +1,41 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "cccswann",
+      "name": "Ciara (CiCi) Swann",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17733481?v=4",
+      "profile": "https://github.com/cccswann",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "nimra200",
+      "name": "Nimra ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56455442?v=4",
+      "profile": "https://github.com/nimra200",
+      "contributions": [
+        "code"
+
+      "login": "varsharathore16",
+      "name": "varsharathore16",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63990614?v=4",
+      "profile": "https://github.com/varsharathore16",
+      "contributions": [
+        "content"
+
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "mlh-portfolio-site",
+  "projectOwner": "cccswann",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
