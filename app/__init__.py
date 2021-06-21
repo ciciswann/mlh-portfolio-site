@@ -12,4 +12,5 @@ def index():
 
 @app.route('/health', methods=['GET'])
 def health():
-    return 200
+    resp.status_code = 200
+    return resp.status_code
