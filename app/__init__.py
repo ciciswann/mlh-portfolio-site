@@ -12,4 +12,4 @@ def index():
 
 @app.route('/health', methods=['GET'])
 def health():
-    return {'message': 'HTTP 200 OK'}
+    return Response("HTTP 200 OK", mimetype='text/html'), 200
