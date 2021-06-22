@@ -12,5 +12,5 @@ def index():
 
 @app.route('/health', methods=['GET'])
 def health():
-    resp.status_code = 200
-    return resp.status_code
+    status_code = flask.Response(status=200)
+    return status_code
