@@ -1,5 +1,5 @@
 import os
-from flask import Flask, render_template, send_from_directory
+from flask import Flask, Response, render_template, send_from_directory
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -12,5 +12,4 @@ def index():
 
 @app.route('/health', methods=['GET'])
 def health():
-    status_code = flask.Response(status=200)
-    return status_code
+    return {'message': 'HTTP 200 OK'}
